@@ -168,7 +168,7 @@ async function scanMusicDirectory(): Promise<MusicFile[]> {
 
           return {
             title: title,
-            src: `/music/${file}`,
+            src: `./music/${file}`,
             metadata: metadata && Object.keys(metadata).length > 0 ? metadata : undefined,
           };
         }),

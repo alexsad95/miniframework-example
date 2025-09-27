@@ -1,7 +1,7 @@
 [
   {
     "title": "Flunk - I Love Music",
-    "src": "/music/Flunk - I Love Music.mp3",
+    "src": "./music/Flunk - I Love Music.mp3",
     "metadata": {
       "duration": 336,
       "title": "Flunk - I Love Music",
@@ -11,7 +11,7 @@
   },
   {
     "title": "IAMX - My Secret Friend ",
-    "src": "/music/IAMX - My Secret Friend .mp3",
+    "src": "./music/IAMX - My Secret Friend .mp3",
     "metadata": {
       "duration": 247,
       "title": "IAMX - My Secret Friend ",
@@ -21,7 +21,7 @@
   },
   {
     "title": "Leon Vynehall - Ice Cream (Chapter VIII) ",
-    "src": "/music/Leon Vynehall - Ice Cream (Chapter VIII) .mp3",
+    "src": "./music/Leon Vynehall - Ice Cream (Chapter VIII) .mp3",
     "metadata": {
       "duration": 290,
       "title": "Leon Vynehall - Ice Cream (Chapter VIII) ",
@@ -31,7 +31,7 @@
   },
   {
     "title": "Leon Vynehall - It Breaks (Chapter IX) ",
-    "src": "/music/Leon Vynehall - It Breaks (Chapter IX) .mp3",
+    "src": "./music/Leon Vynehall - It Breaks (Chapter IX) .mp3",
     "metadata": {
       "duration": 137,
       "title": "Leon Vynehall - It Breaks (Chapter IX) ",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Marc Brauner - In a Dream",
-    "src": "/music/Marc Brauner - In a Dream.mp3",
+    "src": "./music/Marc Brauner - In a Dream.mp3",
     "metadata": {
       "duration": 336,
       "title": "Marc Brauner - In a Dream",
@@ -51,7 +51,7 @@
   },
   {
     "title": "Monokle, AL-90 - Dome ",
-    "src": "/music/Monokle, AL-90 - Dome .mp3",
+    "src": "./music/Monokle, AL-90 - Dome .mp3",
     "metadata": {
       "duration": 298,
       "title": "Monokle, AL-90 - Dome ",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Monokle, AL-90 - Spectre ",
-    "src": "/music/Monokle, AL-90 - Spectre .mp3",
+    "src": "./music/Monokle, AL-90 - Spectre .mp3",
     "metadata": {
       "duration": 246,
       "title": "Monokle, AL-90 - Spectre ",
@@ -71,7 +71,7 @@
   },
   {
     "title": "Placebo - Ask for answers ",
-    "src": "/music/Placebo - Ask for answers .mp3",
+    "src": "./music/Placebo - Ask for answers .mp3",
     "metadata": {
       "duration": 350,
       "title": "Placebo - Ask for answers ",
@@ -81,7 +81,7 @@
   },
   {
     "title": "Placebo - Lady of the Flowers ",
-    "src": "/music/Placebo - Lady of the Flowers .mp3",
+    "src": "./music/Placebo - Lady of the Flowers .mp3",
     "metadata": {
       "duration": 288,
       "title": "Placebo - Lady of the Flowers ",
@@ -91,7 +91,7 @@
   },
   {
     "title": "Placebo - Passive Agressive ",
-    "src": "/music/Placebo - Passive Agressive .mp3",
+    "src": "./music/Placebo - Passive Agressive .mp3",
     "metadata": {
       "duration": 324,
       "title": "Placebo - Passive Agressive ",
@@ -101,7 +101,7 @@
   },
   {
     "title": "Radiohead - Jigsaw Falling Into Place ",
-    "src": "/music/Radiohead - Jigsaw Falling Into Place .mp3",
+    "src": "./music/Radiohead - Jigsaw Falling Into Place .mp3",
     "metadata": {
       "duration": 249,
       "title": "Radiohead - Jigsaw Falling Into Place ",
@@ -111,7 +111,7 @@
   },
   {
     "title": "Radiohead - Up On The Ladder ",
-    "src": "/music/Radiohead - Up On The Ladder .mp3",
+    "src": "./music/Radiohead - Up On The Ladder .mp3",
     "metadata": {
       "duration": 257,
       "title": "Radiohead - Up On The Ladder ",
@@ -121,7 +121,7 @@
   },
   {
     "title": "Sneaker Pimps - Lightning Field ",
-    "src": "/music/Sneaker Pimps - Lightning Field .mp3",
+    "src": "./music/Sneaker Pimps - Lightning Field .mp3",
     "metadata": {
       "duration": 251,
       "title": "Sneaker Pimps - Lightning Field ",
@@ -131,7 +131,7 @@
   },
   {
     "title": "Sneaker Pimps - Low Place Like Home ",
-    "src": "/music/Sneaker Pimps - Low Place Like Home .mp3",
+    "src": "./music/Sneaker Pimps - Low Place Like Home .mp3",
     "metadata": {
       "duration": 278,
       "title": "Sneaker Pimps - Low Place Like Home ",
