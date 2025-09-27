@@ -17,6 +17,7 @@
     "dev": "bun --bun vite",
     "build": "bun --bun vite build",
     "build:prod": "bun --bun vite build --mode production",
+    "build:gh-pages": "NODE_ENV=production bun --bun vite build",
     "start": "bun --bun vite dist --port 3000",
     "start:prod": "bun run build && bun run start",
     "preview": "bun run start",
@@ -26,7 +27,8 @@
     "lint": "biome lint .",
     "lint:fix": "biome check --write --unsafe .",
     "check": "biome check .",
-    "update-playlist": "bun scripts/update-playlist.ts"
+    "update-playlist": "bun scripts/update-playlist.ts",
+    "deploy": "bun run build:gh-pages"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.4",
