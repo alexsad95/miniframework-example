@@ -1,0 +1,42 @@
+{
+  "name": "mini-framework",
+  "version": "1.0.0",
+  "description": "Mini framework and player template",
+  "license": "MIT",
+  "keywords": [
+    "mini-framework",
+    "player",
+    "template"
+  ],
+  "type": "module",
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "dev": "bun --bun vite",
+    "build": "bun --bun vite build",
+    "build:prod": "bun --bun vite build --mode production",
+    "start": "bun --bun vite dist --port 3000",
+    "start:prod": "bun run build && bun run start",
+    "preview": "bun run start",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:fix": "biome check --write --unsafe .",
+    "check": "biome check .",
+    "update-playlist": "bun scripts/update-playlist.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@types/bun": "1.2.21",
+    "@types/jsdom": "21.1.7",
+    "jsdom": "26.1.0",
+    "terser": "^5.44.0",
+    "vite": "7.1.5"
+  },
+  "dependencies": {
+    "music-metadata": "^11.8.3"
+  }
+}
