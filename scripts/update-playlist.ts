@@ -2,9 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseFile } from 'music-metadata';
 
-// Path to music folder
-const musicDir = path.join(import.meta.dir, '../public/music');
-const playlistPath = path.join(import.meta.dir, '../public/playlist.json');
+// Path to music folder - use process.cwd() for better compatibility with GitHub Actions
+const musicDir = path.join(process.cwd(), 'public/music');
+const playlistPath = path.join(process.cwd(), 'public/playlist.json');
 
 // Supported audio formats (only mp3 and wav)
 const audioExtensions = ['.mp3', '.wav'];

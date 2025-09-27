@@ -565,7 +565,7 @@ export function Player() {
   const loadPlaylist = async () => {
     try {
       isLoading.set(true);
-      const response = await fetch('/playlist.json');
+      const response = await fetch('./playlist.json');
       if (response.ok) {
         const songs = await response.json();
         playlist.set(songs);

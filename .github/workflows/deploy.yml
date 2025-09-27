@@ -37,6 +37,14 @@ jobs:
       - name: Install dependencies
         run: bun install
         
+      - name: Check music files
+        run: |
+          echo "Checking music files..."
+          ls -la public/music/ || echo "Music directory not found"
+          ls -la public/playlist.json || echo "Playlist file not found"
+          echo "Files in public directory:"
+          ls -la public/
+        
       - name: Update playlist
         run: bun run update-playlist
         
